@@ -5,7 +5,7 @@ pipeline {
 
         stage('Cloner le projet') {
             steps {
-                git 'https://github.com/TON_REPO/mini-java-project.git'
+                git 'https://github.com/hajar12-hub/tp_jenkins.git'
             }
         }
 
